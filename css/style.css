@@ -533,3 +533,96 @@ img{
     word-spacing: 2px;
 }
 /* Menu Section End */
+
+
+/*Reservation Section Start*/
+.reservation{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height:60vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+    background-image: linear-gradient(rgba(51,33,29 , 0.8), rgba(51,33,29 , 0.8)), url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.reservation::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    left: 0;
+    bottom: -1px;  
+    background-image: url(../images/overlay-bottom.png);
+}
+.reservation::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    left: 0;
+    top: -1px;  
+    background-image: url(../images/overlay-top.png);
+}
+.reservation .left{
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left:2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.reservation .left h1{
+    color: var(--main-color);
+    font-size: calc(var(--big-font-size) + 2rem);
+    font-weight: 700;
+    text-transform: uppercase;
+} 
+.reservation .left h2{
+    color: var(--white-color);    
+    font-size: var(--h1-font-size);
+    font-weight: 600;
+    text-transform: capitalize;  
+    letter-spacing: 1px;
+}
+.reservation .left p{
+    margin-top: 1rem;
+    color: var(--white-color);
+    line-height: 1.6;
+    font-size: 600;
+}
+.reservation .left li{
+    color: var(--white-color);
+}
+.reservation .right{
+    width: 100%;
+    background-color: rgba(51, 33, 29, 0.8);
+}
+.reservation .right form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+.reservation .right form input{
+    width: 90%;
+    height: 60px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: var(--h3-font-size);
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid var(--main-color);
+}
+.reservation .right form input::placeholder{
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
+}
+.reservation .right form .btn{
+    width: 90%;
+}
+/*Reservation Section End*/

@@ -235,3 +235,101 @@ img{
     .prev, .next,.text {font-size: 11px}
   }
 
+
+/* Home Section End */
+/* About Section Start */
+.about{
+    width: 100%;
+    height: auto;
+    padding-top: var(--header-height);
+    margin-bottom: 1rem;
+}
+ .container{
+    max-width: 1200px;
+    padding-top: var(--header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.container .section-header{
+    position: relative;
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+    color: var(--main-color);
+    padding: 1rem;
+    letter-spacing: 2px;
+    text-align: center;  
+    text-transform: uppercase;
+}
+.container .section-header::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100px;
+    background: var(--main-color);
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container .section-title{
+    font-size: var(--big-font-size);
+    font-weight: 700;
+    text-transform:uppercase;
+    text-align: center;
+    color: var(--second-color);
+}
+.about .about-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.about  .about-box{
+    width: 400px;
+    height: 400px; 
+    margin-bottom: 2rem;
+    text-align: left;   
+}
+.about .about-box h1{
+    font-size: var(--h1-font-size);
+    text-transform: capitalize;
+    color: var(--second-color);
+    margin-bottom: 1rem;
+    margin-top: 0;
+    line-height: 1.4;
+}
+.about .about-box h3{
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    line-height: 1.4;
+}
+.about .about-box p{
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    margin-bottom: .6rem;
+    text-transform: capitalize;
+    line-height: 1.4;
+}.features{
+    margin-bottom: 1rem;
+}
+.features li{
+    font-size: var(--h3-font-size);
+    font-weight: 500;
+}
+.features li i{
+    color: var(--main-color);
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+    transform: translateY(10px);
+}
+.about .about-box .about-box .about-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* About Section End */

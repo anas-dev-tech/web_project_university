@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- link boxions file -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#"class="logo"><i class='bx bxl-firebase'></i>MOKA</a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#home"class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link" >About</a></li>
+                    <li><a href="service.html"  class="nav-link" >services</a></li>
+                    <li> <a href="menu.html" class="nav-link" >Menu</a></li>
+                    <li><a href="contact.html" class="nav-link" target="_blank">Contact</a> </li>
+                </ul>
+            </nav>
+            <div class="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-slide">
+            <div class="slideshow-container">
+                <div class="slide fade" style="background-image: linear-gradient(rgba(51,33,29 , 0.8), rgba(51,33,29 , 0.8)), url(../images/carousel-2.jpg);">
+                    <div class="content">
+                        <p>we have been Serving</p>
+                        <h1>coffee</h1>
+                        <span>* since 1940 *</span>
+                    </div>
+                </div>
+                <div class="slide fade" style="background-image: linear-gradient(rgba(51,33,29,0.8),rgba(51,33,29,0.8)),url(../images/carousel-1.jpg);">
+                    <div class="content">
+                        <p>we have been Serving</p>
+                        <h1>coffee</h1>
+                        <span>* since 1940 *</span>
+                    </div>
+                </div>
+                <div class="slide fade" style="background-image: linear-gradient(rgba(51,33,29,0.8),rgba(51,33,29,0.8)),url(../images/carousel-2.jpg);">
+                    <div class="content">
+                        <p>we have been Serving</p>
+                        <h1>coffee</h1>
+                        <span>* since 1940 *</span>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+               <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+            </div>
+
+            
+        
+        </div>
+    </section>
+    <!-- Home Section End -->
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <p class="section-header">about us</p>
+            <h1 class="section-title">serving since 1940</h1>
+            <div class="about-row">
+                <div class="about-box">
+                    <h1>our story</h1>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing 
+                        elit. Quos obcaecati accusantium voluptas optio,
+                         est doloribus.</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Aliquam perspiciatis repellat nam nisi sit facilis placeat
+                          illum saepe sapiente laudantium qui quo corporis debitis 
+                          deserunt, accusantium dicta eaque sint aliquid quod tempora 
+                          fugit ipsa exercitationem! Numquam iste voluptate sit. Rerum.</p>
+                    <a href=""class="btn">learn more</a>
+                </div>
+                <div class="about-box">
+                    <div class="about-image">
+                        <img src="../images/about.png" alt="">  
+                    </div>
+                </div>
+                <div class="about-box">
+                    <h1>our vision</h1>
+                    <p>alias tempore esse voluptate. Et laudantium impedit voluptatum tempore explicabo doloremque necessitatibus repellat voluptas eum, amet deserunt quae suscipit adipisci excepturi? Reiciendis mollitia omnis recusandae dignissimos!</p>
+                    <ul class="features"> 
+                        <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+                        <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+                        <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                    <a href="" class="btn btn-alt">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Services Section Start -->
+    <section class="service" id="service">
+        <div class="container">
+            <p class="section-header">our services</p>
+            <h1 class="section-title">fresh & organic beans</h1>
+            <div class="service-row">
+                <div class="service-box">
+                    <div class="service-image">
+                        <a href="../images/service-1.jpg" target="_blank">
+                            <img src="../images/service-1.jpg" alt="">
+                       </a>
+                    </div>
+                    <div class="service-text">
+                        <h2><i class="bx bxs-truck"></i>Fastest Door Delivery</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Quae eveniet amet deleniti praesentium itaque voluptas qui 
+                            quos, nam ab magnam labore repellat totam.</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-image">
+                        <a href="../images/service-2.jpg" target="_blank">
+                            <img src="../images/service-2.jpg" alt="">
+                       </a>
+                    </div>
+                    <div class="service-text">
+                        <h2><i class="bx bxs-coffee"></i>Fastest Door Delivery</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Quae eveniet amet deleniti praesentium itaque voluptas qui 
+                            quos, nam ab magnam labore repellat totam.</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-image">
+                        <a href="../images/service-3.jpg" target="_blank">
+                            <img src="../images/service-3.jpg" alt="">
+                       </a>>
+                    </div>
+                    <div class="service-text">
+                        <h2><i class="bx bxs-award"></i>Fastest Door Delivery</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Quae eveniet amet deleniti praesentium itaque voluptas qui 
+                            quos, nam ab magnam labore repellat totam.</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-image">
+                        <a href="../images/service-4.jpg" target="_blank">
+                            <img src="../images/service-4.jpg" alt="">
+                       </a>
+                    </div>
+                    <div class="service-text">
+                        <h2><i class="bx bx-table"></i>Fastest Door Delivery</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Quae eveniet amet deleniti praesentium itaque voluptas qui 
+                            quos, nam ab magnam labore repellat totam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+    
+    <!-- Offer Section Start -->
+    <section class="offer" id="offer">
+        <h1>50% off</h1>
+        <h2>sunday special offer</h2>
+        <h3>only for sunday 1st jan to 30th jan 2023</h3>
+        <form action="">
+            <input type="text" placeholder="Your email">
+            <button class="btn btn-alt">sign up</button>
+        </form>
+    </section>
+    <!-- Offer Section End --> 
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <p class="section-header">menu & pricing</p>
+            <h1 class="section-title">competitive pricing</h1>
+            <div class="menu-table">
+               <table>
+                  <tr>
+                    <th><h1>hot coffee</h1></th>
+                     <th><h1>cold coffee</h1></th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-1.jpg" alt="">
+                                <span >5$</span>
+                            </div>
+                           <div class="menu-text">
+                               <h2>black coffee</h2>
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                 Incidunt. Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                           
+                        </div>
+                    </td>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-1.jpg" alt="">
+                                <span>5$</span>
+                            </div>
+                            <div class="menu-text">
+                                <h2>black coffee</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Incidunt. Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                           
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-2.jpg" alt="">
+                                <span>7$</span>
+                            </div>
+                            <div class="menu-text">
+                                <h2>chocolete coffee</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Incidunt. Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </td>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-2.jpg" alt="">
+                                <span>7$</span>
+                            </div>
+                            <div class="menu-text">
+                                <h2>chocolete coffee</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Incidunt. Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-3.jpg" alt="">
+                                <span>9$</span>
+                            </div>
+                            <div class="menu-text">
+                                <h2>coffee with milk</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Incidunt. Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <div class="menu-box">
+                            <div class="menu-img">
+                                <img src="../images/menu-3.jpg" alt="">
+                                <span>9$</span>
+                            </div>
+                            <div class="menu-text">
+                                <h2>coffee with milk</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Incidunt.Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            
+                        </div>
+                    </td>
+                </tr>
+               </table>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!--Reservation Section Start-->
+    <div class="reservation">
+        <div class="left">
+            <h1>30% off</h1>
+            <h2>for online reservation</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 A esse tenetur corporis hic sed et,
+                 quibusdam eum quod alias quo.</p>
+            <ul class="features"> 
+               <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+               <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+               <li><i class='bx bx-check'></i>Lorem ipsum dolor sit amet.</li>
+            </ul>
+        </div>
+        <div class="right">
+            <form action="">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                <input type="text" placeholder="date">
+                <input type="text" placeholder="time">
+                <input type="number" placeholder="person">
+                <button class="btn btn-alt">book now</button>
+            </form>
+        </div>
+    </div>
+    <!--Reservation Section End-->
+
+    <!--Testimoisls Section Start-->
+    <div class="testi">
+        <div class="container">
+            <p class="section-header">our testimoisls</p>
+            <h1 class="section-title">our clints say</h1>
+         </div>
+         <div class="testi-slider">
+            
+                <div class="testi-box">
+                  
+                        <img src="../images/clinet-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>clint name</h3>
+                            <h2>profession</h2>
+                        </div>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Accusantium eius incidunt et blanditiis distinctio porro?</p>
+                </div>
+                <div class="testi-box">
+                    
+                        <img src="../images/clinet-2.jpg" alt="">
+                        <div class="user-info">
+                              <h3>clint name</h3>
+                            <h2>profession</h2>
+                        </div>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Accusantium eius incidunt et blanditiis distinctio porro?</p>
+                </div>
+                <div class="testi-box">
+                    
+                        <img src="../images/clinet-3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>clint name</h3>
+                            <h2>profession</h2>
+                        </div>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Accusantium eius incidunt et blanditiis distinctio porro?</p>
+                </div>
+                <!-- <div class="testi-box">
+                    <div class="user">
+                        <img src="../images/service-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>clint name</h3>
+                            <h2>profession</h2>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Accusantium eius incidunt et blanditiis distinctio porro?</p>
+                </div> -->
+            
+         </div>
+    </div>
+    <!--Testimoisls Section End-->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <p>Coppyright &copy; 2023 by Ahmed | All Rights Reserved</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+               </div>
+        </div>
+        <div class="footer-iconTop">
+            <a href=""><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+     <!-- JS Main file -->
+     <script src="../js/script.js"></script>
+</body>
+</html>

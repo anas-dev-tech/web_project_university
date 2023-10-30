@@ -1,0 +1,39 @@
+/* link Google font file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --header-height:7rem;
+    /* Color */
+    --main-color: #DA9F58;
+    --second-color:#33211D;
+    --black-color:#171717;
+    --white-color:#ffffff;
+    --big-font-size:3rem;
+    --h1-font-size:2.25rem;
+    --h2-font-size:1.5rem;
+    --h3-font-size:1.25rem;
+    --normal-font-size:1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size:var(--normal-font-size);
+    color:var(--black-color);
+    position: relative;
+    overflow-x: hidden;
+    background-color:#FFFBF2;;
+}
+img{
+    width: 100%;
+    height: auto;
+}

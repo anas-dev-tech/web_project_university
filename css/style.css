@@ -626,3 +626,48 @@ img{
     width: 90%;
 }
 /*Reservation Section End*/
+
+/* Testimoisls Section Start */
+.testi{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: var(--header-height);
+}
+.testi-slider{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    justify-content: space-evenly
+}
+.testi-slider .testi-box{
+    width: 28%;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+.testi-slider .testi-box .user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.testi-slider .testi-box img{
+   
+    height: 50%;
+    object-fit: cover;
+}
+.testi-slider .testi-box  h3{
+    font-size: var(--h1-font-size);
+    text-transform: capitalize;
+    color: var(--second-color);
+}
+.testi-slider .testi-box  h2{
+    margin-top: .5rem;
+    text-transform: capitalize;
+    font-size: var(--h2-font-size);
+    opacity: .7;
+}
+.testi-slider .testi-box p{
+    margin-top: .7rem;
+    font-size: 400;
+}
+
+/* Testimoisls Section End */

@@ -473,3 +473,63 @@ img{
     color: var(--white-color);
 }
 /* Offer Section End */
+
+
+/* Menu Section Start */
+.menu{
+    margin: 5rem 0;
+}
+.menu .menu-table{
+    margin: 3rem auto;
+}
+.menu table th h1{
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+    color: var(--second-color);
+    text-transform: capitalize;
+    text-align:left;
+}
+.menu table .menu-box{
+    display: flex;
+    margin: 3rem 2rem 0 0;
+    width: 550px;
+}
+.menu table .menu-box .menu-img{
+    max-width: 100px;
+    margin-right: 1rem;
+    position: relative;
+}
+.menu table .menu-box span{
+    position: absolute;
+    top: -1px;
+    right: 5%;
+    font-size: var(--h3-font-size);
+    color: var(--white-color);
+    z-index: 2;
+}
+.menu table .menu-box .menu-img::after{
+    content:"";
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    right: -6px;
+    top: -11px;
+}
+.menu table .menu-box  .menu-img img{
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+}
+.menu table .menu-box .menu-text h2{
+    text-transform: capitalize;
+    font-size: var(--h2-font-size);
+    font-family: var(--font-title);
+    margin: .6rem 0;
+    color: var(--second-color);
+}
+.menu table .menu-box .menu-text p{
+    word-spacing: 2px;
+}
+/* Menu Section End */
